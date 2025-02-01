@@ -1,0 +1,4 @@
+srun --time=00:59:00 --mem=16G -c 32 --pty bash # AVEC -c 64 c'est plus rapide mais normalement en 11 minutes c'est fini
+source /mnt/lustre/scratch/nlsas/home/ulc/cursos/curso341/miniconda3/bin/activate # ACTIVER PYTHON
+conda activate DaskOnRay38 # ACTIVER PYTHON
+jupyter lab --ip `hostname -i`
