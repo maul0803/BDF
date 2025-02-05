@@ -9,7 +9,7 @@ jupyter lab --ip `hostname -i`
   
 Ensuite sur le notebook:  
 - Copier le premier lien  
-- Appuyer sur select kernel (en haut à droite dur notebook) -> Existing Jupyter Server  
+- Appuyer sur select kernel (en haut à droite du notebook) -> Existing Jupyter Server  
 - Coller le lien  
 - Selectionner mypython  
 - Lancer le notebook  
